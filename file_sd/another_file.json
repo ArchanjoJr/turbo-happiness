@@ -1,0 +1,12 @@
+[{
+  "Labels": {
+    "dc": "ctmm1",
+    "environment": "pro",
+    "instance_name": "SIWTP0773CLA",
+    "job": "si2_api_internet",
+    "public_i": "10.227.6.193"
+  },
+  "Targets": [
+    "10.227.6.193:9100"
+  ]
+}]

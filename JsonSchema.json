@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",  
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "Labels": {
+          "type": "object",
+          "properties": {
+            "dc": {
+              "type": "string"
+            },
+            "environment": {
+              "type": "string"
+            },
+            "instance_name": {
+              "type": "string"
+            },
+            "job": {
+              "type": "string"
+            },
+            "public_ip": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "dc",
+            "environment",
+            "instance_name",
+            "job",
+            "public_ip"
+          ]
+        },
+        "Targets": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "required": [
+        "Labels",
+        "Targets"
+      ]
+    }
+  ]
+}
